@@ -1,0 +1,61 @@
+je suis un cs de la 3e cohorte de codeloccol
+
+
+
+<table>
+                    <div class="row">
+                        <div class="row">
+                            <div class="col d-flex">
+                                 <div class="barcontainer">
+            <div class="bar">
+            </div>
+          </div>
+          <div class="barcontainer">
+            <div class="bar" style="height:70%">
+            </div>
+          </div>
+          <div class="barcontainer">
+            <div class="bar" style="height:30%">
+            </div>
+          </div>
+          <div class="barcontainer">
+            <div class="bar" style="height:90%">
+            </div>
+          </div>
+                                 <div class="barcontainer">
+            <div class="bar">
+            </div>
+          </div>
+          <div class="barcontainer">
+            <div class="bar" style="height:70%">
+            </div>
+          </div>
+          <div class="barcontainer">
+            <div class="bar" style="height:30%">
+            </div>
+          </div>
+          <div class="barcontainer">
+            <div class="bar" style="height:90%">
+            </div>
+          </div>
+                                 <div class="barcontainer">
+            <div class="bar">
+            </div>
+          </div>
+          <div class="barcontainer">
+            <div class="bar" style="height:70%">
+            </div>
+          </div>
+          <div class="barcontainer">
+            <div class="bar" style="height:30%">
+            </div>
+          </div>
+          <div class="barcontainer">
+            <div class="bar" style="height:90%">
+            </div>
+          </div>
+                            </div>
+                        </div>
+                       </div>
+        
+                </table>

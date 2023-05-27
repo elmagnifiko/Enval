@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.espace {
+    height: 25px;
+}
+
+.violet {
+    background-color: #8678B7;
+}
+
+.vert {
+    background-color: #B7E0AE;
+}
+
+.Vert {
+    background-color: #91D9C4;
+}
+
+.jaune {
+    background-color: #F3FAC9;
+}
+
+.jaune {
+    background-color: #F3FAC7;
+}
+
+.jore {
+    background-color: #FFEEC2;
+}
+
+.color {
+    background-color: #F1C9A7;
+}
+
+.bleu {
+    background-color: #7AB1D2;
+}
+
+.marron {
+    background-color: #EF9C81;
+}
+
+.rose {
+    background-color: #EB96A0;
+}
+
+.Rose {
+    background-color: #AA5D83;
+}
+
+#profil {
+    height: 80px;
+    border-radius: 100%;
+
+}
+
+.image {
+    margin-left: 65%;
+}
+
+@media screen and (max-width: 1500px) {
+    div table tr td {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div table tr td  {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    div table tr td  {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div table tr td {
+        font-size: 3px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    div table tr td {
+        font-size: 2px;
+    }
+}

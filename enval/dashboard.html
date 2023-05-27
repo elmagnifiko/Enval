@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="enval.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+    integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body style="background-color:#E7F9FD  ;">
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-2 col-md-1  d-flex flex-column  text-bg-light sbar col-lg-2" style=" height: 100vh;">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+          <svg class="bi pe-none me-2" width="40" height="32">
+            <use xlink:href="#bootstrap" />
+          </svg>
+          <img src="enval_transparent (1).png" class="d-none d-lg-block w-100" alt="enval">
+        </a>
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="dashboard.html" class="nav-link  active  text-black-50" aria-current="page"
+              style="background:#d6f3f9 ;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid"
+                viewBox="0 0 16 16">
+                <path
+                  d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+              </svg>
+              <span class="d-none d-lg-inline">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="facture.html" class="nav-link text-black-50">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+              </svg>
+              <span class="d-none d-lg-inline"> Facture</span>
+            </a>
+          </li>
+          <li>
+            <a href="command.html" class="nav-link text-black-50">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                <path
+                  d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z" />
+              </svg> <span class="d-none d-lg-inline">Commande</span>
+            </a>
+          </li>
+          <li>
+            <a href="suivi.html" class="nav-link text-black-50">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+              </svg> <span class="d-none d-lg-inline">Suivi</span>
+            </a>
+          </li>
+          <li>
+            <a href="serviceclient.html" class="nav-link text-black-50">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-chat-square-text" viewBox="0 0 16 16">
+                <path
+                  d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                <path
+                  d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+              </svg> <span class="d-none d-lg-inline">Service Client</span>
+            </a>
+          </li>
+        </ul>
+        <div class="dropdown">
+          <ul class="nav nav-pills flex-column mb-auto">
+            <li><a href="#" class="nav-link text-black-50">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                  <path
+                    d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                </svg><span class="d-none d-lg-inline">Paramètres Compte</span>
+              </a>
+            </li>
+            <li class="text-decoration-none">
+              <a href="index.html" class="nav-link  text-black-50">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z" />
+                  <path fill-rule="evenodd"
+                    d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
+                </svg> <span class="d-none d-lg-inline">Déconnexion</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="col-10 col-md-11 col-lg-10">
+        <div class=" bg-light mb-3 mlzff text-end p-2 " style="height: 80px;margin-right: -42px; ">
+                        
+            
+          <svg class="me-5 mt-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+              <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+            </svg>
+     
+      
+          <img src="b.png" style="border-radius: 100%;" class="me-5 mt-3" alt="Bootstrap" width="50" height="40">
+        
+    </div>
+        <div class="CERCLE container-sm container-md container-lg">
+        <div class="donut d-flex">
+          <div class="box bi-grid rounded-4 donut1"
+            style="padding: 3em 4em; width: 250px; height: 300px; background-color: #4A96A6 ; margin-top: 90px;">
+            <h5 style="margin-top:-100px; width: 200px;">Analyses positives</h5><br><br>
+
+            <a class="text-white" style="margin-left: 50px;" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                <path
+                  d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+              </svg></a><br>
+            <h5 class="ms-4 mt-4 text-white">Positif</h5><br>
+            <div class="cercle1">
+
+              <!-- <div>
+                <canvas id="myChart1"></canvas>
+              </div>
+
+              <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+              <script>
+                const hdt = document.getElementById('myChart1');
+
+                new Chart(hdt, {
+                  type: 'doughnut',
+                  data: {
+
+                    datasets: [{
+
+                      data: [91, 9],
+                      backgroundColor: ['white', 'rgba(242, 243, 243, 0.1)'],
+                      borderWidth: 1
+                    }]
+                  },
+                  options: {
+                    circumference: 300,
+                    rotation: 210,
+                    cutout: 65
+
+                  }
+                });
+              </script> -->
+              <svg class="circle-container" viewBox="2 -2 28 36" xmlns="http://www.w3.org/2000/svg">
+                <linearGradient id="gradient">
+                  <stop class="stop1" offset="0%" />
+                  <stop class="stop2" offset="100%" />
+                </linearGradient>
+                <circle class="circle-container__background" r="16" cx="16" cy="16" shape-rendering="geometricPrecision"></circle>
+                <circle class="circle-container__progress" r="16" cx="16" cy="16" style="stroke-dashoffset: 10" shape-rendering="geometricPrecision">
+                </circle>
+              </svg>
+              <h4 class="text-white" style="margin-left: 50px; margin-top:-100px;">91%</h4>
+            </div>
+
+          </div>
+
+          <div id="two" class="box bi-grid rounded-4 Negatif ms-5"
+            style="padding: 3em 4em; width: 250px; height: 300px; background-color: white ; margin-top: 90px;  border: 1px solid green;">
+            <h5 style="margin-top:-100px; width: 200px;">Analyses Negatives</h5><br><br>
+            <!-- <div class="bg-black"> -->
+            <div style="height: 50px; border-radius: 50%; width: 50px; margin: auto; background-color:#b3d8e0  ;">
+              <a class="text-green" style="margin-left: 15px;" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-droplet mt-3" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z" />
+                  <path fill-rule="evenodd"
+                    d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z" />
+                </svg></a>
+            </div>
+            <!-- </div> -->
+
+            <h5 class="ms-4 mt-3 text-black">Negatif</h5><br>
+            <div id="cercle2">
+
+              <!-- <div>
+                <canvas id="myChart2"></canvas>
+              </div>
+
+              <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+              <script>
+                const hdm = document.getElementById('myChart2');
+
+                new Chart(hdm, {
+                  type: 'doughnut',
+                  data: {
+
+                    datasets: [{
+
+                      data: [9, 91],
+                      backgroundColor: ['#4A96A6', 'rgba(242, 243, 243, 09)'],
+                      borderWidth: 1
+                    }]
+                  },
+                  options: {
+                    circumference: 300,
+                    rotation: 210,
+                    cutout: 65
+
+                  }
+                });
+              </script> -->
+
+                 <div class="">
+                  <svg class="circle-containerN" viewBox="2 -2 28 36" xmlns="http://www.w3.org/2000/svg">
+                    <linearGradient id="gradient">
+                      <stop class="stop1N" offset="0%" />
+                      <stop class="stop2N" offset="100%" />
+                    </linearGradient>
+                    <circle class="circle-container__backgroundN" r="16" cx="16" cy="16" shape-rendering="geometricPrecision"></circle>
+                    <circle class="circle-container__progressN" r="16" cx="16" cy="16" style="stroke-dashoffset: 65; color:#4A96A6" shape-rendering="geometricPrecision">
+                    </circle>
+                  </svg>
+                 </div>
+              
+
+
+              <h4 class="text-black" style="margin-left: 45px; margin-top:-100px;">9%</h4>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+        <div id="bar" style="margin-top: 50px; height: 200px; width: 900px;">
+          <h6>Analyses par mois</h6>
+          <div>
+            <canvas class="col-lg-9 col-md-10 col-sm-11" id="myChart"></canvas>
+
+          </div>
+
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+          <script>
+            const ctx = document.getElementById('myChart');
+
+            new Chart(ctx, {
+              type: 'bar',
+              data: {
+                labels: ['JAN', 'FEV', 'MARS', 'AVRIL', 'MAI', 'JUIN', 'JUL', 'AOUT', 'SEPT', 'OCT', 'NOV', 'DEC'],
+                datasets: [{
+                  label: '',
+                  data: [14, 10, 19, 9, 14, 7, 11, 14, 14, 14, 14, 14],
+                  borderWidth: 1,
+                  backgroundColor: ['white'],
+                  hoverBackgroundColor: ['#4A96A6 ']
+                }]
+              },
+             
+              options: {
+                 plugins: {
+                    legend: {
+                      display: false,
+                    }
+                  },
+                scales: {
+                  y: {
+                    beginAtZero: false,
+                    display: false,
+                  },
+                  
+                  x: {
+                    grid: {
+                      color: "white",
+                    },
+                  }
+                },
+                
+
+              }
+            });
+          </script>
+        </div>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

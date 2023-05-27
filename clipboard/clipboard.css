@@ -1,0 +1,564 @@
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+.contenu{
+    width: 1440px;
+    margin: auto;
+}
+
+header {
+    background-image: url(images/bg-header-desktop.png);
+    text-align: center;
+    background-size: cover;
+    padding: 100px;
+}
+
+.button1 {
+    text-align: center;
+}
+#facebook, #twitter, #instagram ,.link{
+    cursor: pointer;
+}
+#facebook:hover , #twitter:hover , #instagram:hover{
+    color: #27BBA4;
+}
+.fin  a:hover {
+    color:#2da593;
+    opacity: 100%;
+}
+.but1:hover{
+    border-bottom: 1px solid    #27BBA4 ;
+    box-shadow: 6px 6px 25px #27BBA4;
+}
+.but2:hover {
+    box-shadow: 6px 6px 25px rgb(138, 133, 228); 
+    border-bottom: 1px solid    rgb(138, 133, 228) ;
+}
+
+
+button{
+ width: 10%;
+ padding: 10px;
+ border-radius: 20px;
+ cursor: pointer;
+ margin-left: 10px;
+ border: 10px;
+ color: white;
+}
+p{
+    opacity: 30%;
+}
+h1 , h2 {
+    opacity: 60%;
+}
+.but1{
+    background-color:#27BBA4;
+}
+.but2 {
+    background-color: rgb(138, 133, 228);
+}
+.one {
+    text-align: center;
+    width: 700px;
+    margin: auto;
+
+}
+.two {
+margin-left: -35%;
+display: flex;
+justify-content: center;
+}
+.five {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 100px;
+}
+.six {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.computer {
+    display: flex;
+    
+}
+.pied {
+    display: flex;
+    justify-content: space-around;
+}
+.seven {
+    
+    text-align: center;
+    margin-top: 100px;
+}
+.trois {
+   margin-left: 100px;
+   font-size: 15px;
+   margin-top: 100px;
+}
+
+.reseau, .pied, footer{
+    background: #e1e3e2;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.four {
+    text-align: center;
+}
+.button2 {
+    text-align: center;
+}
+#logo2{
+    width: 50px;
+    padding-top: 50px;
+    margin-bottom: 54px;
+}
+.reseau {
+    margin-top: 50px;
+    word-spacing: 14px;
+    margin-left: -2%;
+}
+.fin {
+    display: contents;
+}
+footer{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* for desktop */
+
+/* @media screen and (max-width: 1440px) { */
+    /* footer {
+        height: 200px;
+    }
+    .fin {
+        display: contents;
+        
+    }
+    .button1 {
+        margin-top: -80px;
+    }
+    .one {
+        margin-top: -100px;
+        margin-bottom: 20px;
+    } */
+    /* body {
+        margin: auto;
+        width: 1440px;     
+
+    }
+    button{
+        width: 15%;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-left: 10px;
+        border: 10px;
+        color: white;
+       } */
+
+/* } */
+    
+/* @media screen and (max-width: 1300px) {
+    
+   /* button{
+    width: 280px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 100px;
+    font-size: 18px;
+    opacity: 95%;
+    cursor: pointer;
+ } */
+    /* body {
+        margin: auto;
+        width: 1300px;   
+             flex-direction: column;
+
+    }
+} */
+
+/* @media screen and (max-width:1000px) {
+    body {
+       width: 1000px;
+       margin: auto;
+    }
+    button{
+        width: 15%;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-left: 10px;
+        border: 10px;
+        color: white;
+       }
+       #computer1 {
+        width: 500px;
+        height: 450px;
+        margin-top: 100px;
+        margin-right: 100px;
+       }
+       .two{
+        width: 6Opx;
+        background-color: #27BBA4;
+        margin-left: -100px;
+       }
+       .three {
+        width: 5000px;
+        margin-top: 50px;
+        margin: auto;
+       }
+       #tablette {
+        width: 650px;
+       } */
+
+/* } */
+/* 
+@media screen and (max-width:800px) {
+    body {
+        width: 800px;
+        margin: auto;
+     }
+     #tablette {
+        width: 500px;
+     } */
+     /* .computer1 {
+        margin-left: 100px;
+     } */
+     /* .three {
+        width: 500px;
+        height: 500px;
+        margin: auto;
+        /* background-color: black; */
+        /* color: white; */
+      /* } */
+      /* .three1 , .three3, .three2{
+        width: 400px;
+      }
+      button {
+        width:150px
+      }
+      .five {
+        background-color: #27BBA4;
+        width: 800px;
+      }
+      #six1, #six2 , #six3 ,#six4 , #six5{
+        width:  100px;
+      }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        width: 600px;
+        margin: auto;
+     }
+     footer {
+        width: 600px;
+     }
+     *{
+        flex-direction: column;
+        margin: auto;
+     }
+     footer ,.five, .six ,header , .two {
+        width: 100%;
+     }
+}
+
+@media screen and (max-width:400px) {
+    body {
+        width: 400px;
+    }
+    footer {
+        width: 400px;
+    }
+} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile */
+
+@media screen and (max-width: 375px) {
+    body {
+        max-width: 375px;
+        margin: auto;
+        flex-direction: column;
+        font-size: 18px;
+        position: absolute;
+    }
+    header {
+        background: url(images/bg-header-mobile.png);
+    }
+    #logo2{
+        margin-bottom: 0;
+    }
+    p {
+        width: 340px;
+        margin: auto;
+        font-size: 16px;
+    }
+    
+    .button1 {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    button{
+       width: 280px;
+       margin: auto;
+       padding: 15px;
+       border-radius: 100px;
+       font-size: 18px;
+       opacity: 95%;
+       cursor: pointer;
+    }
+   
+    .two {
+        flex-direction: column;
+    }
+    #computer1 {
+        width: 320px;
+        margin: auto;
+    }
+    .two{
+        margin:auto;
+    }
+    .one {
+        margin: auto;
+        width: 350px;
+        margin-top: 20px;
+    }
+    .three3 {
+        width: 375px;
+       
+    }
+    .four {
+        width: 340px;
+    }
+    .trois {
+        text-align: center;
+        margin: auto;
+    }
+    #tablette {
+        width: 350px;
+    }
+    .five {
+       flex-direction: column;
+       margin: auto;
+       width: 350px;
+       font-size: 16px;
+    }
+    .six {
+        flex-direction: column;
+        width: 120px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .seven {
+        width: 300px;
+        justify-content:left
+    }
+    /* .six > div{
+        margin: 2px;
+    } */
+    .but2 {
+     margin-top: 20px;
+    }
+    .pied {
+        flex-direction: column;
+        width: 375px;
+        display: flex;
+        align-items:center;
+        height: 20rem;
+        /*margin:auto;*/
+       text-align: center;
+        justify-content: space-between;
+        padding-bottom: 25px;
+
+    }
+
+    .five1 , .five2 , .five3 {
+        margin-top: 100px;
+    }
+    #six1 , #six2 , #six3 , #six4 , #six5{
+        margin-top: 80px;
+    }
+    .link{
+       padding-top: 15px;
+    }
+    .reseau {
+      word-spacing: 25px;
+      margin-bottom: 50px;
+      margin-top: 30px;
+    }
+    .computer{
+        margin-top: 50px;
+    }
+    .Button1{
+        margin-top: 50px;
+    }
+    .fin {
+        display: flex;
+        flex-direction: column;
+    }
+    .contenu {
+        width: 375px;
+        margin: auto;
+        flex-direction: column;
+    }
+    
+    
+} 
+
+/* @media screen and (max-width: 1440px) {
+    body {
+        width: 1400px;
+    }
+}
+
+
+
+@media screen and (max-width:1300px) {
+    body {
+        width: 1300px;
+    }
+}
+
+@media screen and {
+    
+}
+ */
+
+
+
+
+
+
+/* 
+@media screen and (max-width: 375px) {
+    .two {
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+    .contenu {
+        width: 375px;
+        margin: auto;
+        flex-direction: column;
+    }
+    #logo1 {
+        display: flex;
+        justify-content: center;
+    }
+    div {
+        width: 300px;
+        margin: auto;
+    }
+    p {
+        width: 300px;
+        margin: auto;
+    }
+    header {
+        width:100px;
+        margin: auto;
+    }
+    h1 {
+        width: 300px;
+        margin: auto;
+    }
+    h2 {
+        width: 300px;
+        margin: auto;
+    }
+    .three{
+        width: 350px;
+        margin: auto;
+      align-items: center;
+      flex-direction: column;
+    }
+    .three1 {
+        text-align: center;
+    }
+    #tablette  {
+        width: 300px;
+        margin: auto;
+    }
+
+    #computer1 {
+      
+      
+        width: 320px;
+        margin: auto;
+    }
+    .one {
+        width: 250px;
+        text-align: center;
+    }
+    .four, .five  {
+        flex-direction: column;
+    }
+    .six {
+        flex-direction: column;
+        align-items: center;
+    }
+    #six1 , #six2 ,#six3 ,#six4 ,#six5 {
+        margin-top: 150px;
+        width: 200px;  
+    }
+    button {
+        display: block;
+        width: 200px;
+        margin: auto;
+    }
+
+    .but1 , .but2 {
+        margin-top: 20px;
+    }
+    .pied {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    #logo2 {
+        margin: auto;
+    }
+    .trois {
+        margin: 0;
+        text-align: center;
+    }
+    .reseau {
+        margin-bottom: 30px;
+    }
+    footer {
+        width: 375px;
+        margin: auto;
+    }
+} */
+
+

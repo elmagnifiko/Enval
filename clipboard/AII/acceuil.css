@@ -1,0 +1,39 @@
+body {
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+
+}
+.acceuil {
+    /* background-color: rgb(201, 45, 45); */
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    
+}
+input {
+    width: 330px;
+    height: 23px;
+    border-radius: 6px;
+    opacity: 50%;
+    border: rgb(101, 91, 91) solid;
+}
+#email , #password {
+    margin-top: 30px;
+}
+button{
+ margin-top: 50px;
+ width: 330px;
+    height: 30px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(22, 86, 123);
+    opacity: 70%;
+ 
+}
+a {
+    margin-left: -200px;
+    font-size: 13px;
+    color: darkgrey;
+}

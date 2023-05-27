@@ -1,0 +1,29 @@
+je suis un cs de la 3e cohorte de codeloccol
+
+
+.three1 {
+    width: 300px;
+    border: solid;
+    margin: auto;
+    
+}
+
+
+      ``
+
+
+
+<body class="text-bg-info">
+   
+    <div>
+        <nav class="navbar bg-body-tertiary">
+            <div class="m-auto">
+              <a class="navbar-brand" href="#">
+                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+              </a>
+            </div>
+          </nav>
+    </div>
+
+
+ 
